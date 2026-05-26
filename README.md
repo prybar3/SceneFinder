@@ -43,18 +43,11 @@ Assets/Settings/
 └── SceneFinderFavorites.asset          # 收藏列表数据（项目设置）
 ```
 
-## 导出插件包
-1. 在 Project 窗口中选中 `Assets/Plugins/SceneFinder` 文件夹
-2. 右键选择 `Export Package...`
-3. 确保所有文件都被勾选
-4. 点击 `Export` 保存 `.unitypackage` 文件
+## 使用方法
+1. Unity 会自动在 `Assets/Settings/` 目录下创建收藏数据文件
+2. 通过 `Tools > Scene Finder` 菜单打开窗口即可使用
 
-## 导入到其他项目
-1. 将导出的 `.unitypackage` 文件导入到目标项目
-2. Unity 会自动在 `Assets/Settings/` 目录下创建收藏数据文件
-3. 通过 `Tools > Scene Finder` 菜单打开窗口即可使用
-
-## 技术特性
+## 特性说明
 - 使用 ScriptableObject 存储收藏数据
 - 使用 SessionState 保存窗口状态
 - 支持自定义拖拽操作
@@ -69,6 +62,4 @@ Assets/Settings/
 - 版本：1.0
 - 兼容 Unity 版本：2020.3 及以上
 
-## 作者
-MiniEcoProject Team
 
