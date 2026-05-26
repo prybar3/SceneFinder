@@ -1,5 +1,7 @@
 # Scene Finder 场景查找器
 
+<img width="189" height="573" alt="场景finder" src="https://github.com/user-attachments/assets/8b470a23-39a8-4b34-b413-a89034c7cb3f" />
+
 ## 功能介绍
 Scene Finder 是一个 Unity 编辑器工具，用于快速查找和打开项目中的场景文件。
 
